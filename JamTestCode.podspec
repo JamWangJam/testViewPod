@@ -16,7 +16,7 @@ Pod::Spec.new do |spec|
   #
 
   spec.name         = "JamTestCode"
-  spec.version      = "0.0.1"
+  spec.version      = "1.0.0"
   spec.summary      = "一个建立pod仓库的简单demo."
 
   # This description is used to generate tags and improve search results.
@@ -25,9 +25,10 @@ Pod::Spec.new do |spec|
   #   * Write the description between the DESC delimiters below.
   #   * Finally, don't worry about the indent, CocoaPods strips it!
   spec.description  = <<-DESC
-                   DESC
+                     这只是一个建立pod仓库的简单demo，并没有实际的意思。教学使用。
+                  DESC
 
-  spec.homepage     = "http://EXAMPLE/JamTestCode"
+  spec.homepage     = "https://github.com/JamWangJam/testViewPod"
   # spec.screenshots  = "www.example.com/screenshots_1.gif", "www.example.com/screenshots_2.gif"
 
 
@@ -39,7 +40,7 @@ Pod::Spec.new do |spec|
   #
 
   #spec.license      = "MIT (example)"
-   spec.license      = { :type => "MIT", :file => "FILE_LICENSE" }
+   spec.license      = { :type => "MIT", :file => "LICENSE" }
 
 
   # ――― Author Metadata  ――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
@@ -90,7 +91,7 @@ Pod::Spec.new do |spec|
   #  Not including the public_header_files will make all headers public.
   #
 
-  spec.source_files  = "Classes", "NewTestCode/NewTestCode/Classses/**/*.{h,m}"
+  spec.source_files  = "Classes", "NewTestCode/NewTestCode/Classses/**/*.{swift,xib}"
   spec.exclude_files = "Classes/Exclude"
 
   # spec.public_header_files = "Classes/**/*.h"
